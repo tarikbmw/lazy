@@ -1,0 +1,3 @@
+[submodule "public/script/AutoForm"]
+	path = public/script/AutoForm
+	url = https://github.com/tarikbmw/AutoForm.git

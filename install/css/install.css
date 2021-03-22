@@ -1,0 +1,16 @@
+html {margin:0; width:100%; text-align:center; background:rgb(134, 147, 150); font-family: Arial;}
+body {margin: 5rem auto; max-width:50rem; text-align:left; color:rgb(106, 118, 123);}
+header {padding: 0 1rem;}
+header, label, legend, footer > a {color: rgb(50, 76, 88);}
+body > main > article {background:white; padding:1rem 1.5rem;}
+body > main,
+body > header {margin:0; padding:0; display:flex;}
+body > footer {margin: 1.5rem 0;}
+article ul {list-style: none; margin:0; padding:0; }
+article ul > li:not(:last-child) {margin-bottom:.5rem;}
+fieldset {border:none; border-top:.025em solid rgb(175,207,210);}
+fieldset > legend {font-weight: bold; padding: 0 .5rem;font-size:1.2rem;}
+label {width:8rem; display: inline-block; font-size:1.2rem;}
+footer {font-size: .85rem; color:rgb(64,64,64);}
+footer > a {text-decoration: none;}
+.button {color:white; background:rgb(50, 76, 88); padding:.5rem 1rem; font-size: 1.25rem; text-decoration: none; line-height: 3rem; border-radius:.15rem;}
