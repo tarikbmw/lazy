@@ -48,3 +48,23 @@ Put in cfg/Application.xml
     </Module>
 </Application>
 ```
+
+For demo application put this in cfg/Install.xml
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<Application name="install" class="\Install" output="xml" charset="utf-8" lang="Ru-ru" database="db1">
+    <Session class="\Core\Session" name="PHPSESSID">NoOneLies</Session>
+    <WorkingDirectory path="/var/www/LazyFramework/install" uri="http://localhost"/>
+    <Output name="html" class="\Core\Render\XSLTProcessor" mime="text/html"/>
+    <Output name="xml" class="\Core\Render\XML" mime="application/xml"/>
+    <Database name="db1" class="\Core\Database\MySql\Connector" hostname="p:localhost" login="root" password="root" schema="lazy" charset="utf8"/>
+    <Stylesheet path="/var/www/LazyFramework/install/" uri="http://localhost" default="install.xsl" version="v01"/>
+    <Log enabled="true" path="/var/www/LazyFramework/log" name="install.log" showDate="false" filenameDateFormat="Y-m-d" dateFormat="d.m.Y H:i.s"/>
+    <Cache name="default" hostname="localhost" port="0"/>
+    <DefaultAction module="install" name="step1" class="\Install\Action\Step1"/>
+    <!-- Modules definitions -->
+    <Module name="install" class="\Install" successURL="http://localhost">
+        <Action method="GET" name="step1"    class="\Install\Action\Step1"/>
+    </Module>
+</Application>
+```
