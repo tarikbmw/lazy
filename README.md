@@ -1,6 +1,8 @@
 # Lazy Framework
 This is a lightweight PHP8 XML/XSLT based framework. This framework supporting MySQL/Oracle databases. And simplify render to XML/JSON/HTML format.
 
+Sample: http://www.lazyframework.ru
+
 ## Configuration file
 Put below XML in cfg/Application.xml
 
