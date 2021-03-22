@@ -28,6 +28,6 @@ trait All
      */
 	function rejection():void
 	{
-		throw new Error("Доступно всем!");
+		throw new Error("Avaliable to all");
 	}
 }
