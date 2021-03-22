@@ -2,7 +2,7 @@
 This is a lightweight PHP8 XML/XSLT based framework. This framework supporting MySQL/Oracle databases. And simplify render to XML/JSON/HTML format.
 
 ## Configuration file
-Put in cfg/Application.xml
+Put below XML in cfg/Application.xml
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -49,7 +49,7 @@ Put in cfg/Application.xml
 </Application>
 ```
 
-For demo application put this in cfg/Install.xml
+For demo application put this XML in cfg/Install.xml
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <Application name="install" class="\Install" output="xml" charset="utf-8" lang="Ru-ru" database="db1">
