@@ -4,7 +4,7 @@ This is a lightweight PHP8 XML/XSLT based framework. This framework supporting M
 ## Configuration file
 Put in cfg/Application.xml
 
-`
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     name - Application or module name, used as a part of url (https://site_name/module_name/action_name.output_name), default value - `main`;
@@ -47,4 +47,4 @@ Put in cfg/Application.xml
         <Action method="GET" name="entry" class="Entry"/>
     </Module>
 </Application>
-`
+```
